@@ -1,5 +1,5 @@
 <script>
-    import placeholder_image from '../../assets/FiAR Case.png';
+    import placeholder_image from '../../assets/FiAR_Case.png';
 
     export let title = "FiAR app";
     export let subtitle = "AR informatieplatform";

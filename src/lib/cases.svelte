@@ -1,9 +1,9 @@
 <script>
     import Case from "./components/case.svelte";
-    import fiar_case_img from '../assets/FiAR Case.png';
-    import smartfix_case_img from '../assets/SmartFix Case.png';
-    import das_delft_case_img from '../assets/DAS Delft Case.png';
-    import tinteltuin_case_img from '../assets/Tinteltuin Case.png';
+    import fiar_case_img from '../assets/FiAR_Case.png';
+    import smartfix_case_img from '../assets/SmartFix_Case.png';
+    import das_delft_case_img from '../assets/DAS_Delft_case.png';
+    import tinteltuin_case_img from '../assets/Tinteltuin_case.png';
 </script>
 
 <div class="flex flex-col items-center mt-20 gap-y-20 mx-20">
