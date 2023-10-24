@@ -1,8 +1,8 @@
 <script>
-  import wouter_img from '/Wouter.png';
+  import wouter_img from '../assets/Wouter.png';
 </script>
 
-<div class="w-full shadow-md sticky">
+<div class="w-full shadow-md sticky top-0 bg-white z-10">
   <div class="mx-auto flex justify-between py-3 px-20 items-center max-w-screen-2xl">
     <div class="flex gap-x-2">
       <img src={wouter_img} alt="Wouter Haenen" class="w-12 h-12 rounded-full">

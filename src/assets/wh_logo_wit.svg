@@ -1,0 +1,17 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Logo light">
+<circle id="Ellipse 6" cx="40" cy="40" r="40" fill="#E0E0E0"/>
+<g id="Mask group">
+<mask id="mask0_201_1519" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="80" height="80">
+<circle id="Ellipse 8" cx="40" cy="40" r="40" fill="#F1F1F1"/>
+</mask>
+<g mask="url(#mask0_201_1519)">
+<circle id="Ellipse 7" cx="24.8" cy="24.8" r="52" fill="#F1F1F1"/>
+</g>
+</g>
+<g id="WH">
+<path d="M13.538 53.6H23.6756L26.1747 40.2944L26.5619 38.112H26.8084L27.1956 40.2944L29.6948 53.6H39.8324L44.6899 27.9392H36.9459L34.7635 44.2368L34.4468 46.7008H34.1299L30.7156 27.9392H22.6548L19.2404 46.7008H18.9236L18.5364 43.7088L16.4244 27.9392H8.68035L13.538 53.6Z" fill="#24272C"/>
+<path d="M46.4202 53.6H53.9178V43.7792H61.8378V53.6H69.3002V27.9392H61.8378V37.4432H53.9178V27.9392H46.4202V53.6Z" fill="#24272C"/>
+</g>
+</g>
+</svg>
