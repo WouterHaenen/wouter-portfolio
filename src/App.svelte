@@ -12,7 +12,7 @@
 </script>
 
 <main>
-    <Router url="{url}">
+    <Router url={url}>
       <Navbar />
       <div class="mx-auto max-w-7xl">
           <Route path="/" component={Home} />

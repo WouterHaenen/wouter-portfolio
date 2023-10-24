@@ -1,4 +1,6 @@
 <script>
+    import { Link } from 'svelte-routing';
+
     import wh_logo_wit from '../assets/wh_logo_wit.svg';
 </script>
 
@@ -7,9 +9,9 @@
         <div class="flex items-center gap-x-10">
             <img src={wh_logo_wit} alt="WH logo wit" class="w-20 h-20">
             <div class="flex gap-x-8">
-                <a href="#" class="uppercase text-white font-medium">Home<span class="text-groen text-3xl/[20%]">.</span></a>
-                <a href="#" class="uppercase text-white font-medium">Over mij<span class="text-groen text-3xl/[20%]">.</span></a>
-                <a href="#" class="uppercase text-white font-medium">Contact<span class="text-groen text-3xl/[20%]">.</span></a>
+                <Link to="/" class="uppercase text-white font-medium hover:text-groen">Home<span class="text-groen text-3xl/[20%]">.</span></Link>
+                <Link to="/about" class="uppercase text-white font-medium hover:text-groen">Over mij<span class="text-groen text-3xl/[20%]">.</span></Link>
+                <Link to="/contact" class="uppercase text-white font-medium hover:text-groen">Contact<span class="text-groen text-3xl/[20%]">.</span></Link>
             </div>
         </div>
         <div class="flex flex-col gap-y-1 w-1/4">

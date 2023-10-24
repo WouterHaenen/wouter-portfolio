@@ -1,5 +1,5 @@
 <script>
-  import { Link, link } from 'svelte-routing';
+  import { Link } from 'svelte-routing';
   
   import wouter_img from '../assets/Wouter.png';
 </script>
@@ -15,9 +15,9 @@
       
     </div>
     <div class="flex gap-x-8">
-      <Link to="/" class="text-base uppercase text-licht-grijs-tekst hover:text-groen active:text-groen">Home</Link>
-      <Link to="/about" class="text-base uppercase text-licht-grijs-tekst hover:text-groen active:text-groen">Over mij</Link>
-      <Link to="/contact" class="text-base uppercase text-licht-grijs-tekst hover:text-groen active:text-groen">Contact</Link>
+      <Link to="/" let:active><span class={"text-base uppercase hover:text-groen " + ((active) ? "text-groen" : "text-licht-grijs-tekst") }>Home</span></Link>
+      <Link to="/about" let:active><span class={"text-base uppercase hover:text-groen " + ((active) ? "text-groen" : "text-licht-grijs-tekst") }>Over mij</span></Link>
+      <Link to="/contact" let:active><span class={"text-base uppercase hover:text-groen " + ((active) ? "text-groen" : "text-licht-grijs-tekst") }>Contact</span></Link>
     </div>
   </div>
 </div>
