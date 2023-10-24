@@ -11,8 +11,8 @@
   let url = "";
 </script>
 
-<main>
-    <Router url={url}>
+<main class="selection:bg-groen selection:text-white">
+    <Router url="{url}">
       <Navbar />
       <div class="mx-auto max-w-7xl">
           <Route path="/" component={Home} />
